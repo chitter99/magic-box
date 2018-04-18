@@ -7,7 +7,7 @@
   "repository": {
 	"type": "git",
 	"url": "https://github.com/chitter99/magic-box/"
-  }
+  },
   "main": "dist/server.bundle.js",
   "scripts": {
     "buildserver": "webpack --display-error-details --config config/webpack.server.config.js",
