@@ -2,6 +2,12 @@
   "name": "magic-box",
   "version": "1.0.0",
   "description": "You'll never know what you will get.",
+  "author": "chitter99",
+  "homepage": "https://github.com/chitter99/magic-box/",
+  "repository": {
+	"type": "git",
+	"url": "https://github.com/chitter99/magic-box/"
+  }
   "main": "dist/server.bundle.js",
   "scripts": {
     "buildserver": "webpack --display-error-details --config config/webpack.server.config.js",
@@ -10,8 +16,7 @@
     "dev": "npm run buildserver && concurrently --kill-others \"webpack -d --watch --config config/webpack.client.config.js\" \"npm start\"",
     "start": "node dist/server.bundle.js"
   },
-  "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@types/axios": "^0.14.0",
     "@types/express": "^4.11.1",
