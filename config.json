@@ -1,0 +1,7 @@
+{
+    "port": 80,
+    "placeholderImage": {
+        "path": "public/images/default.jpg",
+        "mime": "image/jpeg"
+    }
+}
